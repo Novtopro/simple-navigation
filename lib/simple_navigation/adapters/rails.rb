@@ -45,8 +45,8 @@ module SimpleNavigation
         template && template.link_to(link_title(name), url, options)
       end
 
-      def content_tag(type, content, options = {})
-        template && template.content_tag(type, html_safe(content), options)
+      def content_tag(type, content, options = {}, &block)
+        template && template.content_tag(type, html_safe(content), options, &block)
       end
 
       protected
