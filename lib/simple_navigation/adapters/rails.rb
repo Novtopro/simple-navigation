@@ -41,8 +41,8 @@ module SimpleNavigation
         template && template.current_page?(url)
       end
 
-      def link_to(name, url, options = {})
-        template && template.link_to(link_title(name), url, options)
+      def link_to(name, url, options = {}, &block)
+        template && template.link_to(link_title(name), url, options, &block)
       end
 
       def content_tag(type, content, options = {}, &block)
