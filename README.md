@@ -9,7 +9,7 @@ Simple Navigation is a ruby library for creating navigations (with multiple leve
 
 ## Documentation
 
-For the complete documentation, take a look at the [project's wiki](http://wiki.github.com/codeplant/simple-navigation).
+For the complete documentation, take a look at the [project's wiki](https://github.com/codeplant/simple-navigation/wiki).
 
 ## RDoc
 
@@ -60,4 +60,4 @@ In this situation `/Users/username/.rubies/ruby-2.2.3/bin/rake` is the command y
 
 ## License
 
-Copyright (c) 2017 codeplant GmbH, released under the MIT license
+Copyright (c) 2019 codeplant GmbH, released under the MIT license
